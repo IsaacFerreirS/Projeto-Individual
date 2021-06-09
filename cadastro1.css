@@ -1,0 +1,141 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, cyan, yellow ) ;
+    
+
+}
+
+/* parte preta meu nobre */
+.formulario{
+    background-color:black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 150px;
+    border-radius: 10px;
+    color: deepskyblue;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0, 0.9);
+    width: 288px;
+
+}
+
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 255px;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+        /* SÓ COLOCAR QUANDO COLOCAR COR NO HEADER */
+    margin: 0;
+        /* SÓ COLOCAR QUANDO COLOCAR COR NO HEADER */
+        background-color: rgb(0, 0, 0);
+}
+
+/* altura da parte de cima */
+.container { 
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    padding: 25px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Borda baixo */
+
+.header {
+    background-color: #232323;
+        /*overflow: auto; /* cuidado*/
+    height: 100px;
+        /*ATENÇÃO VOLTA A NAV AQUI SE SUMIR*/
+    border-bottom: 3px solid rgb(44, 50, 51);
+}
+
+.header .container {
+    height: 80px;
+}
+
+.header .container .highlight {
+    color: rgb(0, 195, 255)
+}
+
+.header h1 {
+    margin: 0;
+    padding: 0;
+    float: left;
+        /*ATENÇÃO - VAI SUMIR A NAV*/
+    margin-top: 30px;
+    color: white;
+}
+
+.header ul {
+    list-style-type: none;
+        /*ATENÇÃO - NAO É NO NAV*/
+    float: right;
+        /*ATENÇÃO - VAI SUMIR A NAV*/
+    margin-top: 40px;
+}
+
+.header li {
+    float: left;
+        /*ATENÇÃO ORDENE OS ITENS NA MESMA ORDEM QUE ESTÃO NO HTML*/
+    margin-left: 18px;
+        /* FIM*/
+}
+
+.header a {
+    text-transform: uppercase;
+    color: white;
+}
+
+.header a:hover {
+    font-weight: bold;
+}
+
+.header .current {
+    color: rgb(0, 195, 255);
+    font-weight: bold;
+}
+
+#form_cadastro{
+    display: flex;
+    flex-direction: column;
+}
+#form_cadastro input{
+    margin-bottom: 15px;
+    border-radius: 5px;
+    color: black;
+}
+
+#btn_entrar{
+    width: 288px;
+    border-radius: 10px;
+    height: 45px;
+    background-color: deepskyblue;
+    align-items: center;
+    
+}
+
+
+
